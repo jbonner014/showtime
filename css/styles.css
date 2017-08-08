@@ -1,0 +1,80 @@
+/*Optional Gold color #af8e3a*/
+body {
+    background-image: url("../img/stage.jpg");
+    background-size: 1900px;
+    width: 1200px;
+    margin: 0px auto;
+}
+.content {
+    background-color: rgba(140, 140, 140, 0.7);
+}
+header {
+    background-color:#801A14;
+    padding: 10px;
+}
+h1 {
+    color: #B5910E;
+    text-align: center;
+    font-family: 'Fascinate Inline', cursive;
+}
+.links img{
+    height: 60px;
+}
+footer {
+    color: #B5910E;
+    background-color: #858585;
+    position: relative;
+    clear: both;
+}
+.nav{
+    text-align: center;
+}
+.nav a{
+    text-decoration: none;
+    font-family: 'Zilla Slab Highlight';
+    font-size: 20px;
+    color: black;
+    background-color: white;
+    margin: 5px;
+}
+    .nav a:hover {
+        background-color: #af8e3a;
+    }
+p {
+    font-family: 'Cabin';
+}
+ul {
+    font-family: 'Cabin';
+}
+.signup {
+    padding: 45px;
+    background-image: url("../img/ticket.png");
+    background-size: 200px;
+    float: right;
+    text-align: center;
+}
+    .signup a:link {
+        color: white;
+        text-decoration: none;
+        font-family: 'Poiret One', cursive;
+    }
+    .signup a:visited {
+        color: white;
+    }
+    .signup a:hover {
+        color: #B5910E;
+        background-color: blue;
+    }
+h2 {
+    font-family: 'Fascinate', cursive;
+}
+.groups{
+    margin:0px auto;
+}
+    .groups img{
+    width: 300px;
+    float: right;
+    }
+    .groups p {
+    width: 600px;
+    }
