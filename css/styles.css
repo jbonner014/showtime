@@ -38,7 +38,7 @@ footer {
     background-color: white;
     margin: 5px;
 }
-    .nav a:hover {
+    .nav a:hover{
         background-color: #af8e3a;
     }
 p {
@@ -47,30 +47,33 @@ p {
 ul {
     font-family: 'Cabin';
 }
-.signup {
-    padding: 45px;
-    background-image: url("../img/ticket.png");
-    background-size: 200px;
+.signup{
+    padding: 40px;
+    background-image: url("../img/blueticket.png");
+    background-size: 160px;
+    background-repeat: no-repeat;
+    background-position: center;
     float: right;
-    text-align: center;
 }
     .signup a:link {
         color: white;
         text-decoration: none;
         font-family: 'Poiret One', cursive;
+        font-size:20px;
     }
     .signup a:visited {
         color: white;
     }
     .signup a:hover {
         color: #B5910E;
-        background-color: blue;
     }
 h2 {
     font-family: 'Fascinate', cursive;
 }
 .groups{
-    margin:0px auto;
+    clear: both;
+    width: 1200px;
+    
 }
     .groups img{
     width: 300px;
@@ -78,4 +81,18 @@ h2 {
     }
     .groups p {
     width: 600px;
+    }
+.notice{
+    width: 400px;
+}
+.show{
+    width: 600px;
+    float: right;
+}
+    .show p{
+        width: 130px;
+    }
+    .show img{
+        width: 400px;
+        float: right;
     }
