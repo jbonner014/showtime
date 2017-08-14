@@ -3,7 +3,7 @@ body {
     background-image: url("../img/stage.jpg");
     background-size: 1900px;
     background-repeat: no-repeat;
-    overflow-y: scroll;
+    background-attachment: fixed;
     width: 1200px;
     margin: 0px auto;
 }
@@ -12,7 +12,8 @@ body {
 }
 header {
     background-color:#801A14;
-    padding: 10px;
+    padding-top: 1px;
+    width: 1200px;
 }
 h1 {
     color: #B5910E;
@@ -56,8 +57,16 @@ ul {
     float: right;
     clear: right;
 }
+    .signin a{
+        text-decoration: none;
+        color: black;
+    }
+        .signin a:hover{
+            color: #B5910E;
+        }
     .signin img{
         width: 100px;
+        float: right;
     }
 .signup{
     padding: 40px;
@@ -97,6 +106,7 @@ h2 {
         }
     .bottomhalf{
         margin: 0px auto;
+        clear: both;
     }
         .bottomhalf img{
             width: 400px;
