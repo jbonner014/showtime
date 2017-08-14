@@ -2,6 +2,8 @@
 body {
     background-image: url("../img/stage.jpg");
     background-size: 1900px;
+    background-repeat: no-repeat;
+    overflow-y: scroll;
     width: 1200px;
     margin: 0px auto;
 }
@@ -29,6 +31,9 @@ footer {
 }
 .nav{
     text-align: center;
+    width: 1200px;
+    margin: 0px auto;
+    clear: both;
 }
 .nav a{
     text-decoration: none;
@@ -47,6 +52,13 @@ p {
 ul {
     font-family: 'Cabin';
 }
+.signin{
+    float: right;
+    clear: right;
+}
+    .signin img{
+        width: 100px;
+    }
 .signup{
     padding: 40px;
     background-image: url("../img/blueticket.png");
@@ -70,31 +82,22 @@ ul {
 h2 {
     font-family: 'Fascinate', cursive;
 }
-.groups{
-    clear: both;
-    width: 1200px;
-}
 .info{
-    overflow: scroll;
+    overflow: auto;
+    margin: 0px auto;
 }
-    .groups img{
-    width: 300px;
-    float: right;
+    .tophalf{
+        height: auto;
+        margin: 0px auto;
     }
-    .groups p {
-    width: 600px;
+        .tophalf img{
+            width: 400px;
+            float: right;
+            clear: right;
+        }
+    .bottomhalf{
+        margin: 0px auto;
     }
-.notice{
-    width: 400px;
-}
-.show{
-    width: 600px;
-    float: right;
-}
-    .show p{
-        width: 130px;
-    }
-    .show img{
-        width: 400px;
-        float: right;
-    }
+        .bottomhalf img{
+            width: 400px;
+        }
